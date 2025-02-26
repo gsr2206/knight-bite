@@ -1,0 +1,31 @@
+.gallery{
+    background-color:rgb(106, 167, 237); 
+    padding-top: 10px;
+
+    
+}
+.gallery img{
+    width: 300px;
+    height: 250px;
+    border-bottom: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.gallery-inner{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    justify-content: center;
+    /* background-color: rgb(203, 125, 16);
+    padding: 20px opx 50px; */
+}
+.gallery h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+}
+.gallery img:hover{
+    transform:scale(1.2);
+    
+}
